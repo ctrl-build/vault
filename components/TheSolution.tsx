@@ -48,7 +48,7 @@ export default function TheSolution() {
         >          
           <h2
             className="text-[36px] md:text-[80px] lg:text-[100px] leading-[0.95] text-[#332D2A] mb-6"
-            style={{ fontFamily: 'var(--font-ogg-display)' }}
+            style={{ fontFamily: 'var(--font-viscomo)' }}
           >
             <span className="block">From Chaos</span>
             <span className="block">to Clarity.</span>

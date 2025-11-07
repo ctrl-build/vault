@@ -63,7 +63,7 @@ export default function HowItWorks() {
         <div className="text-center mb-16 md:mb-20">
           <h2 
             className="text-[50px] md:text-[80px] lg:text-[100px] leading-[0.95] text-[#332D2A]"
-            style={{ fontFamily: 'var(--font-ogg-display)' }}
+            style={{ fontFamily: 'var(--font-viscomo)' }}
           >
             How Vault Works
           </h2>

@@ -66,7 +66,7 @@ export default function Context() {
         <div className="text-center mb-20 md:mb-32">
           <h2 
             className="text-[50px] md:text-[80px] lg:text-[100px] leading-[0.95] text-[#332D2A]"
-            style={{ fontFamily: 'var(--font-ogg-display)' }}
+            style={{ fontFamily: 'var(--font-viscomo)' }}
           >
             From Atelier to Analytics.
           </h2>

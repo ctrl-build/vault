@@ -48,7 +48,7 @@ export default function TheChallenge() {
           >
             <h2 
               className="text-[40px] md:text-[80px] lg:text-[100px] leading-[0.95] text-[#332D2A] mb-8 md:mb-4"
-              style={{ fontFamily: 'var(--font-ogg-display)' }}
+              style={{ fontFamily: 'var(--font-viscomo)' }}
             >
               Complexity is the enemy of luxury.
             </h2>

@@ -45,7 +45,7 @@ export default function Footer() {
           <h2 
             className="mb-8 text-[#F7F5F2]"
             style={{ 
-              fontFamily: 'var(--font-ogg-display)',
+              fontFamily: 'var(--font-viscomo)',
               fontSize: '80px',
               lineHeight: '1.1'
             }}
