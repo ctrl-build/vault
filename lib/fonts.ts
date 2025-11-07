@@ -211,3 +211,9 @@ export const oggText = localFont({
   display: 'swap',
 })
 
+export const viscomo = localFont({
+  src: '../public/assets/fonts/Viscomo-ov5r4.ttf',
+  variable: '--font-viscomo',
+  display: 'swap',
+})
+

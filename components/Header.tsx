@@ -26,8 +26,8 @@ export default function Header() {
 
   const navLinks = [
     { label: 'Platform', href: '/platform' },
-    { label: 'Results', href: '/results' },
     { label: 'Our Thesis', href: '/thesis' },
+    { label: 'Journal', href: '/journal' },
   ]
 
   return (
@@ -133,7 +133,7 @@ export default function Header() {
                     : 'opacity-0 -translate-y-4'
                 }`}
                 style={{ 
-                  fontFamily: 'var(--font-ogg-display)',
+                  fontFamily: 'var(--font-viscomo)',
                   transitionDelay: `${index * 100}ms`
                 }}
               >

@@ -3,7 +3,6 @@ import TheChallenge from '@/components/TheChallenge'
 import TheSolution from '@/components/TheSolution'
 import HowItWorks from '@/components/HowItWorks'
 import Context from '@/components/Context'
-import TheResults from '@/components/TheResults'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -18,8 +17,6 @@ export default function Home() {
       <HowItWorks />
 
       <Context />
-
-      <TheResults />
       
       <Footer />
     </main>

@@ -110,7 +110,7 @@ export default function Hero() {
               <div style={{ animation: 'wipeInUp 1.5s ease-out 1.2s both' }}>
                 <h1 
                   className="text-[80px] lg:text-[110px] leading-[0.95] text-[#332D2A] break-normal"
-                  style={{ fontFamily: 'var(--font-ogg-display)' }}
+                  style={{ fontFamily: 'var(--font-viscomo)' }}
                 >
                   For the Next Era<br />
                   of Luxury Retail.
@@ -170,7 +170,7 @@ export default function Hero() {
           <div style={{ animation: 'wipeInUp 1.5s ease-out 1.2s both' }}>
             <h1 
               className="text-[56px] leading-[0.95] text-[#332D2A]"
-              style={{ fontFamily: 'var(--font-ogg-display)' }}
+              style={{ fontFamily: 'var(--font-viscomo)' }}
             >
               For the Next<br />
               Era of Luxury<br />

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { switzer, oggDisplay, oggText } from "@/lib/fonts";
+import { switzer, oggDisplay, oggText, viscomo } from "@/lib/fonts";
 import "./globals.css";
 import Header from "@/components/Header";
 
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${switzer.variable} ${oggDisplay.variable} ${oggText.variable} antialiased`}
+        className={`${switzer.variable} ${oggDisplay.variable} ${oggText.variable} ${viscomo.variable} antialiased`}
       >
         <Header />
         {children}

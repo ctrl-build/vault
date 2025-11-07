@@ -96,16 +96,20 @@ export default function Footer() {
 
             <div>
               <nav className="space-y-3">
-                {['Platform', 'Results', 'Our Thesis'].map((link) => (
-                  <a
-                    key={link}
-                    href={`#${link.toLowerCase().replace(/\s+/g, '-')}`}
+                {[
+                  { label: 'Platform', href: '/platform' },
+                  { label: 'Our Thesis', href: '/thesis' },
+                  { label: 'Journal', href: '/journal' }
+                ].map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
                     className="block text-base text-[#332D2A] relative group"
                     style={{ fontFamily: 'var(--font-switzer)' }}
                   >
-                    {link}
+                    {link.label}
                     <span className="absolute bottom-0 left-1/2 w-0 h-[1px] bg-[#C07A56] transition-all duration-300 group-hover:w-full group-hover:left-0" />
-                  </a>
+                  </Link>
                 ))}
               </nav>
             </div>
@@ -178,16 +182,20 @@ export default function Footer() {
 
             <div>
               <nav className="space-y-3">
-                {['Platform', 'Results', 'Our Thesis'].map((link) => (
-                  <a
-                    key={link}
-                    href={`#${link.toLowerCase().replace(/\s+/g, '-')}`}
+                {[
+                  { label: 'Platform', href: '/platform' },
+                  { label: 'Our Thesis', href: '/thesis' },
+                  { label: 'Journal', href: '/journal' }
+                ].map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
                     className="block text-base text-[#332D2A] relative group"
                     style={{ fontFamily: 'var(--font-switzer)' }}
                   >
-                    {link}
+                    {link.label}
                     <span className="absolute bottom-0 left-1/2 w-0 h-[1px] bg-[#C07A56] transition-all duration-300 group-hover:w-full group-hover:left-0" />
-                  </a>
+                  </Link>
                 ))}
               </nav>
             </div>

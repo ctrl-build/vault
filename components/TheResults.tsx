@@ -99,15 +99,6 @@ export default function TheResults() {
     <section className="relative bg-[#F7F5F2] py-32 md:py-40">
       <div className="max-w-6xl mx-auto px-6 xl:px-0">
         
-        <div className="text-center mb-20 md:mb-32">
-          <h2 
-            className="text-[50px] md:text-[80px] lg:text-[100px] leading-[0.95] text-[#332D2A]"
-            style={{ fontFamily: 'var(--font-ogg-display)' }}
-          >
-            The Proof is in the Performance.
-          </h2>
-        </div>
-
         <div className="hidden md:block space-y-16">
           {metricBlocks.map((block, index) => (
             <div key={index} className="border-t border-[#EAE3DB] pt-16">
