@@ -95,7 +95,7 @@ export default function JournalPage() {
                 cursorVisible ? 'opacity-100' : 'opacity-0'
               }`}
               style={{ 
-                height: '1.2em',
+                height: '3em',
                 marginTop: '0.05em',
                 alignSelf: 'flex-start'
               }}
