@@ -87,27 +87,34 @@ export default function Header() {
 
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="flex items-center gap-2 text-[#332D2A] uppercase tracking-wide"
+              className="flex items-center gap-2 text-[#332D2A] uppercase tracking-wide relative z-50"
               style={{ fontFamily: 'var(--font-switzer)', fontWeight: 500 }}
             >
               <span className="transition-all duration-300">
                 {isMobileMenuOpen ? 'Close' : 'Menu'}
               </span>
-              <div className="flex flex-col gap-1 ml-1">
+              <div className="relative w-6 h-6 ml-1">
                 <div 
-                  className={`w-6 h-[2px] bg-[#332D2A] transition-all duration-300 origin-center ${
-                    isMobileMenuOpen ? 'rotate-45 translate-y-[3px]' : ''
+                  className={`absolute top-1/2 left-0 w-6 h-[2px] bg-[#332D2A] transition-all duration-300 ease-out ${
+                    isMobileMenuOpen 
+                      ? 'rotate-45 translate-y-0' 
+                      : '-translate-y-[6px]'
                   }`}
+                  style={{ transformOrigin: 'center' }}
                 />
                 <div 
-                  className={`w-6 h-[2px] bg-[#332D2A] transition-all duration-300 ${
-                    isMobileMenuOpen ? 'opacity-0' : ''
+                  className={`absolute top-1/2 left-0 w-6 h-[2px] bg-[#332D2A] transition-all duration-300 ease-out ${
+                    isMobileMenuOpen ? 'opacity-0 scale-0' : 'opacity-100 scale-100'
                   }`}
+                  style={{ transformOrigin: 'center' }}
                 />
                 <div 
-                  className={`w-6 h-[2px] bg-[#332D2A] transition-all duration-300 origin-center ${
-                    isMobileMenuOpen ? '-rotate-45 -translate-y-[3px]' : ''
+                  className={`absolute top-1/2 left-0 w-6 h-[2px] bg-[#332D2A] transition-all duration-300 ease-out ${
+                    isMobileMenuOpen 
+                      ? '-rotate-45 translate-y-0' 
+                      : 'translate-y-[6px]'
                   }`}
+                  style={{ transformOrigin: 'center' }}
                 />
               </div>
             </button>

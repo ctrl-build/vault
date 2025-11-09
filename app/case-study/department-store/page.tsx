@@ -1,14 +1,12 @@
 'use client'
 
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export default function DepartmentStoreCaseStudy() {
   const [hasAnimated, setHasAnimated] = useState(false)
-  const [chartAnimated, setChartAnimated] = useState(false)
   const [showCTA, setShowCTA] = useState(false)
-  const chartRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,13 +15,6 @@ export default function DepartmentStoreCaseStudy() {
         const rect = metricsSection.getBoundingClientRect()
         if (rect.top < window.innerHeight) {
           setHasAnimated(true)
-        }
-      }
-
-      if (chartRef.current && !chartAnimated) {
-        const rect = chartRef.current.getBoundingClientRect()
-        if (rect.top < window.innerHeight * 0.8) {
-          setChartAnimated(true)
         }
       }
 
@@ -40,7 +31,7 @@ export default function DepartmentStoreCaseStudy() {
     handleScroll()
     
     return () => window.removeEventListener('scroll', handleScroll)
-  }, [hasAnimated, chartAnimated])
+  }, [hasAnimated])
 
   return (
     <main className="bg-[#F7F5F2]">
@@ -244,93 +235,6 @@ export default function DepartmentStoreCaseStudy() {
               The transformation was immediate. What previously required multiple system logins and manual cross-referencing was now accessible through a single interface. The "silos" were dismantled, and the merchandising team could focus on what mattered: serving clients and protecting margins.
             </p>
           </div>
-
-          <div className="mb-24">
-            <h2 
-              className="text-[40px] md:text-[48px] leading-tight text-[#332D2A] mb-8"
-              style={{ fontFamily: 'var(--font-ogg-display)' }}
-            >
-              Chapter 03. The Results.
-            </h2>
-            
-            <div className="space-y-6 mb-12">
-              <p 
-                className="text-[#332D2A] leading-[1.6]"
-                style={{ 
-                  fontFamily: 'var(--font-switzer)',
-                  fontSize: '19px'
-                }}
-              >
-                Within the first quarter post-implementation, full-price sell-through reached 95%. This was driven by three factors: accurate inventory visibility prevented stockouts, predictive reorder cues optimized stock levels, and unified client data enabled personalized recommendations that increased AOV.
-              </p>
-              
-              <p 
-                className="text-[#332D2A] leading-[1.6]"
-                style={{ 
-                  fontFamily: 'var(--font-switzer)',
-                  fontSize: '19px'
-                }}
-              >
-                Markdowns were reduced by 30%, as Vault's analytics identified slow-moving inventory early and enabled strategic markdown timing, rather than reactive clearances. Inventory turnover improved to 2.5x, indicating healthier cash flow and reduced carrying costs.
-              </p>
-            </div>
-
-            <div ref={chartRef} className="relative bg-white border border-[#EAE3DB] rounded-lg p-8 mb-12">
-              <h3 
-                className="mb-8 text-[#332D2A]"
-                style={{ 
-                  fontFamily: 'var(--font-switzer)',
-                  fontWeight: 600,
-                  fontSize: '24px'
-                }}
-              >
-                Markdowns: Before vs. After
-              </h3>
-              
-              <div className="space-y-6">
-                <div>
-                  <div className="flex justify-between mb-2">
-                    <span className="text-[#332D2A]" style={{ fontFamily: 'var(--font-switzer)' }}>Before</span>
-                    <span className="text-[#332D2A] font-semibold" style={{ fontFamily: 'var(--font-switzer)' }}>35%</span>
-                  </div>
-                  <div className="h-12 bg-[#EAE3DB] rounded overflow-hidden">
-                    <div 
-                      className="h-full bg-[#C07A56] transition-all duration-1000 ease-out"
-                      style={{ 
-                        width: chartAnimated ? '100%' : '0%'
-                      }}
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <div className="flex justify-between mb-2">
-                    <span className="text-[#332D2A]" style={{ fontFamily: 'var(--font-switzer)' }}>After</span>
-                    <span className="text-[#332D2A] font-semibold" style={{ fontFamily: 'var(--font-switzer)' }}>5%</span>
-                  </div>
-                  <div className="h-12 bg-[#EAE3DB] rounded overflow-hidden">
-                    <div 
-                      className="h-full bg-[#C07A56] transition-all duration-1000 ease-out"
-                      style={{ 
-                        width: chartAnimated ? '14.3%' : '0%',
-                        transitionDelay: '0.2s'
-                      }}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <p 
-              className="text-[#332D2A] leading-[1.6]"
-              style={{ 
-                fontFamily: 'var(--font-switzer)',
-                fontSize: '19px'
-              }}
-            >
-              The ROI was measurable: an 18% improvement in gross margin, driven by reduced markdowns and optimized inventory allocation. Most importantly, the merchandising team gained back 30 hours per week previously spent on manual reconciliation, time now invested in trend analysis and client engagement.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -357,25 +261,6 @@ export default function DepartmentStoreCaseStudy() {
             >
               Chief Merchandising Officer, Major Department Store
             </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-6 xl:px-0">
-          
-          <div className="text-center mb-16">
-            <Link
-              href="/results"
-              className="inline-block text-[#C07A56] transition-all duration-300 hover:underline"
-              style={{ 
-                fontFamily: 'var(--font-switzer)',
-                fontWeight: 600,
-                fontSize: '20px'
-              }}
-            >
-              Next Report: The Parisian Luxury House →
-            </Link>
           </div>
         </div>
       </section>

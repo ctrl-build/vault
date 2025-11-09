@@ -40,15 +40,15 @@ export default function ThesisPage() {
 
   const strategists = [
     {
-      name: 'Sarah Chen',
-      title: 'Founder & Chief Strategist',
-      bio: 'A former merchandiser at Chanel and data scientist from Google, Sarah founded Vault on the belief that precision is the new luxury.',
+      name: 'Olaitan Ajilore',
+      title: 'Founder & CEO',
+      bio: 'Ex Apple, IDEO alum, engineer turned creative director turned founder.',
       image: '/assets/images/68acdc146960375eb18b69b0_IMG_8756.jpg'
     },
     {
-      name: 'Marcus Laurent',
-      title: 'Co-Founder & Head of Intelligence',
-      bio: 'Former VP of Analytics at Net-a-Porter, Marcus brings 15 years of retail intelligence experience to architect Vault\'s predictive engine.',
+      name: 'Haboon Nur',
+      title: 'Co-Founder & CTO',
+      bio: 'Bridging the gap between timelessness and novelty.',
       image: '/assets/images/68acdc1488cc81d5b8d80dba_IMG_8759.jpg'
     }
   ]
@@ -60,7 +60,7 @@ export default function ThesisPage() {
           
           <h1 
             className="text-[60px] md:text-[80px] lg:text-[90px] leading-[0.95] text-[#332D2A] mb-6"
-            style={{ fontFamily: 'var(--font-ogg-display)' }}
+            style={{ fontFamily: 'var(--font-viscomo)' }}
           >
             Luxury is not random.<br />It is engineered.
           </h1>
@@ -84,7 +84,7 @@ export default function ThesisPage() {
           
           <h2 
             className="text-[40px] md:text-[48px] leading-tight text-[#332D2A] mb-12"
-            style={{ fontFamily: 'var(--font-ogg-display)' }}
+            style={{ fontFamily: 'var(--font-viscomo)' }}
           >
             Chapter 01. The Intuition Trap.
           </h2>
@@ -99,7 +99,7 @@ export default function ThesisPage() {
             >
               <span 
                 className="float-left text-[120px] leading-[0.8] text-[#332D2A] pr-2"
-                style={{ fontFamily: 'var(--font-ogg-display)' }}
+                style={{ fontFamily: 'var(--font-viscomo)' }}
               >
                 F
               </span>
@@ -173,7 +173,7 @@ export default function ThesisPage() {
             <div ref={thesisTextRef} className="space-y-6">
               <h2 
                 className="text-[40px] md:text-[48px] leading-tight text-[#332D2A]"
-                style={{ fontFamily: 'var(--font-ogg-display)' }}
+                style={{ fontFamily: 'var(--font-viscomo)' }}
               >
                 Chapter 02. The Synthesis.
               </h2>
@@ -227,7 +227,7 @@ export default function ThesisPage() {
             
             <h2 
               className="text-[40px] leading-tight text-[#332D2A]"
-              style={{ fontFamily: 'var(--font-ogg-display)' }}
+              style={{ fontFamily: 'var(--font-viscomo)' }}
             >
               Chapter 02. The Synthesis.
             </h2>
@@ -325,7 +325,7 @@ export default function ThesisPage() {
           
           <h2 
             className="text-[50px] md:text-[80px] lg:text-[100px] leading-[0.95] text-[#332D2A] mb-16 text-center"
-            style={{ fontFamily: 'var(--font-ogg-display)' }}
+            style={{ fontFamily: 'var(--font-viscomo)' }}
           >
             The Strategists.
           </h2>
@@ -430,7 +430,7 @@ export default function ThesisPage() {
           <h2 
             className="mb-8 text-[#F7F5F2]"
             style={{ 
-              fontFamily: 'var(--font-ogg-display)',
+              fontFamily: 'var(--font-viscomo)',
               fontSize: '80px',
               lineHeight: '1.1'
             }}

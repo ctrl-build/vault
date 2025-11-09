@@ -385,51 +385,6 @@ export default function PlatformPage() {
           </div>
         </div>
       </section>
-
-      <section className="relative bg-[#F7F5F2] py-32 md:py-40">
-        <div className="max-w-4xl mx-auto px-6 xl:px-0 text-center">
-          
-          <h2 
-            className="text-[50px] md:text-[80px] lg:text-[100px] leading-[0.95] text-[#332D2A] mb-8"
-            style={{ fontFamily: 'var(--font-ogg-display)' }}
-          >
-            See the Results.
-          </h2>
-
-          <p 
-            className="text-xl text-[#332D2A] leading-relaxed max-w-2xl mx-auto mb-12"
-            style={{ fontFamily: 'var(--font-switzer)' }}
-          >
-            Explore how the world's leading luxury brands use the Vault platform to protect margins and drive sell-through.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <a
-              href="/results"
-              className="px-8 py-4 bg-[#C07A56] text-[#F7F5F2] transition-all duration-300 hover:bg-[#D48660] whitespace-nowrap"
-              style={{ 
-                fontFamily: 'var(--font-switzer)',
-                fontWeight: 500,
-                letterSpacing: '0.5px'
-              }}
-            >
-              View Case Studies
-            </a>
-
-            <Link
-              href="/briefing"
-              className="inline-block px-8 py-4 border-[1px] border-[#C07A56] text-[#C07A56] transition-all duration-300 hover:bg-[#C07A56] hover:text-[#F7F5F2] whitespace-nowrap"
-              style={{ 
-                fontFamily: 'var(--font-switzer)',
-                fontWeight: 500,
-                letterSpacing: '0.5px'
-              }}
-            >
-              Request a Private Briefing
-            </Link>
-          </div>
-        </div>
-      </section>
     </main>
   )
 }
