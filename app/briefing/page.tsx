@@ -34,7 +34,7 @@ export default function BriefingPage() {
           
           <h1 
             className="text-[50px] md:text-[70px] lg:text-[90px] leading-[0.95] text-[#332D2A] mb-6"
-            style={{ fontFamily: 'var(--font-ogg-display)' }}
+            style={{ fontFamily: 'var(--font-viscomo)' }}
           >
             Request a Private Briefing.
           </h1>
@@ -95,7 +95,7 @@ export default function BriefingPage() {
                 <p 
                   className="text-[#332D2A] leading-relaxed mb-4"
                   style={{ 
-                    fontFamily: 'var(--font-ogg-display)',
+                    fontFamily: 'var(--font-viscomo)',
                     fontSize: '28px'
                   }}
                 >
@@ -312,7 +312,7 @@ export default function BriefingPage() {
                   <h2 
                     className="text-[#332D2A] mb-6"
                     style={{ 
-                      fontFamily: 'var(--font-ogg-display)',
+                      fontFamily: 'var(--font-viscomo)',
                       fontSize: '36px'
                     }}
                   >
@@ -536,7 +536,7 @@ export default function BriefingPage() {
                   <h2 
                     className="text-[#332D2A] mb-6"
                     style={{ 
-                      fontFamily: 'var(--font-ogg-display)',
+                      fontFamily: 'var(--font-viscomo)',
                       fontSize: '36px'
                     }}
                   >
@@ -594,7 +594,7 @@ export default function BriefingPage() {
                 <p 
                   className="text-[#332D2A] leading-relaxed mb-4"
                   style={{ 
-                    fontFamily: 'var(--font-ogg-display)',
+                    fontFamily: 'var(--font-viscomo)',
                     fontSize: '28px'
                   }}
                 >

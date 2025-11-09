@@ -178,7 +178,7 @@ export default function PlatformPage() {
           
           <h1 
             className="text-[60px] md:text-[80px] lg:text-[100px] leading-[0.95] text-[#332D2A] mb-6"
-            style={{ fontFamily: 'var(--font-ogg-display)' }}
+            style={{ fontFamily: 'var(--font-viscomo)' }}
           >
             The Single Source of Truth.
           </h1>
@@ -327,7 +327,7 @@ export default function PlatformPage() {
           
           <h2 
             className="text-[50px] md:text-[80px] lg:text-[100px] leading-[0.95] text-[#332D2A] mb-8"
-            style={{ fontFamily: 'var(--font-ogg-display)' }}
+            style={{ fontFamily: 'var(--font-viscomo)' }}
           >
             The Engine Behind the Edit.
           </h2>
@@ -356,7 +356,7 @@ export default function PlatformPage() {
           
           <h2 
             className="text-[50px] md:text-[80px] lg:text-[100px] leading-[0.95] text-[#332D2A] mb-8 text-center"
-            style={{ fontFamily: 'var(--font-ogg-display)' }}
+            style={{ fontFamily: 'var(--font-viscomo)' }}
           >
             Works With Your World.
           </h2>

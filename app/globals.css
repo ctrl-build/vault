@@ -24,9 +24,9 @@ body {
 }
 
 .font-ogg-display {
-  font-family: var(--font-ogg-display);
+  font-family: var(--font-viscomo);
 }
 
 .font-ogg-text {
-  font-family: var(--font-ogg-text);
+  font-family: var(--font-viscomo);
 }

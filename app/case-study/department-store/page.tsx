@@ -53,7 +53,7 @@ export default function DepartmentStoreCaseStudy() {
 
           <h1 
             className="text-[40px] md:text-[60px] lg:text-[80px] leading-[0.95] text-[#332D2A] mb-6"
-            style={{ fontFamily: 'var(--font-ogg-display)' }}
+            style={{ fontFamily: 'var(--font-viscomo)' }}
           >
             How 95% Full-Price Sell-Through Was Achieved by Unifying Inventory and Client Data.
           </h1>
@@ -131,7 +131,7 @@ export default function DepartmentStoreCaseStudy() {
           <div className="mb-24">
             <h2 
               className="text-[40px] md:text-[48px] leading-tight text-[#332D2A] mb-8"
-              style={{ fontFamily: 'var(--font-ogg-display)' }}
+              style={{ fontFamily: 'var(--font-viscomo)' }}
             >
               Chapter 01. The Challenge.
             </h2>
@@ -182,7 +182,7 @@ export default function DepartmentStoreCaseStudy() {
           <div className="mb-24">
             <h2 
               className="text-[40px] md:text-[48px] leading-tight text-[#332D2A] mb-8"
-              style={{ fontFamily: 'var(--font-ogg-display)' }}
+              style={{ fontFamily: 'var(--font-viscomo)' }}
             >
               Chapter 02. The Solution.
             </h2>
@@ -245,7 +245,7 @@ export default function DepartmentStoreCaseStudy() {
             <p 
               className="text-[#332D2A] leading-relaxed mb-6"
               style={{ 
-                fontFamily: 'var(--font-ogg-display)',
+                fontFamily: 'var(--font-viscomo)',
                 fontSize: '64px',
                 lineHeight: '1.2'
               }}
@@ -278,7 +278,7 @@ export default function DepartmentStoreCaseStudy() {
           <h2 
             className="mb-8 text-[#F7F5F2]"
             style={{ 
-              fontFamily: 'var(--font-ogg-display)',
+              fontFamily: 'var(--font-viscomo)',
               fontSize: '80px',
               lineHeight: '1.1'
             }}
